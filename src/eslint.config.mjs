@@ -6,7 +6,7 @@ export default [
   js.configs.recommended,
   eslintConfigPrettier,
   {
-    languageOptions: 
+    languageOptions: {
       globals: {
         ...globals.node,
         ...globals.browser,
